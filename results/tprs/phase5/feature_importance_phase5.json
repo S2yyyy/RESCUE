@@ -1,0 +1,291 @@
+{
+  "mean": {
+    "a_diamond": 0.044781530275940895,
+    "a_last": 0.010921174893155694,
+    "a_miniprot": 0.11856440361589193,
+    "a_mmseqs": 0.013868817244656384,
+    "a_n_tools": 0.06136114499531686,
+    "a_best_score": 0.017172154504805803,
+    "a_best_qcov": 0.018757023848593235,
+    "a_n_raw_hits": 0.04020269215106964,
+    "region_size": 0.020767028210684657,
+    "region_size_log": 0.0193756939843297,
+    "on_primary_chrom": 0.21134477853775024,
+    "strand_match_primary": 0.07556409295648336,
+    "coorth_overlap_bp": 0.043406098149716854,
+    "coorth_same_chrom": 0.021691611502319574,
+    "query_length_aa": 0.022669244091957808,
+    "query_length_log": 0.017893350450322032,
+    "c_has_hit": 0.006925599649548531,
+    "c_identity": 0.026639826595783234,
+    "c_coverage": 0.03002384165301919,
+    "c_n_exons": 0.03465252602472901,
+    "c_cds_length": 0.03169546974822879,
+    "c_composite_score": 0.041697641368955374,
+    "c_hit_score": 0.03526130970567465,
+    "c_rank": 0.0,
+    "query_type_num": 0.034762962721288204
+  },
+  "per_species": {
+    "mouse": {
+      "a_diamond": 0.019829925149679184,
+      "a_last": 0.013093627989292145,
+      "a_miniprot": 0.057517848908901215,
+      "a_mmseqs": 0.024136509746313095,
+      "a_n_tools": 0.09638949483633041,
+      "a_best_score": 0.01961146667599678,
+      "a_best_qcov": 0.01258787326514721,
+      "a_n_raw_hits": 0.08831840753555298,
+      "region_size": 0.019106395542621613,
+      "region_size_log": 0.016702167689800262,
+      "on_primary_chrom": 0.22204726934432983,
+      "strand_match_primary": 0.028837520629167557,
+      "coorth_overlap_bp": 0.04675095155835152,
+      "coorth_same_chrom": 0.01780000701546669,
+      "query_length_aa": 0.03827260434627533,
+      "query_length_log": 0.034537553787231445,
+      "c_has_hit": 0.01014799065887928,
+      "c_identity": 0.028129009529948235,
+      "c_coverage": 0.03045147843658924,
+      "c_n_exons": 0.04765794798731804,
+      "c_cds_length": 0.03154785558581352,
+      "c_composite_score": 0.02223166823387146,
+      "c_hit_score": 0.033048491925001144,
+      "c_rank": 0.0,
+      "query_type_num": 0.04124589264392853
+    },
+    "dog": {
+      "a_diamond": 0.04030266031622887,
+      "a_last": 0.004924055654555559,
+      "a_miniprot": 0.2139344960451126,
+      "a_mmseqs": 0.015002812258899212,
+      "a_n_tools": 0.06375529617071152,
+      "a_best_score": 0.015096829272806644,
+      "a_best_qcov": 0.013244333676993847,
+      "a_n_raw_hits": 0.01595909893512726,
+      "region_size": 0.02512870728969574,
+      "region_size_log": 0.024198343977332115,
+      "on_primary_chrom": 0.20121078193187714,
+      "strand_match_primary": 0.05560024827718735,
+      "coorth_overlap_bp": 0.04810232296586037,
+      "coorth_same_chrom": 0.020542625337839127,
+      "query_length_aa": 0.01734655350446701,
+      "query_length_log": 0.01754019595682621,
+      "c_has_hit": 0.010867852717638016,
+      "c_identity": 0.04138625040650368,
+      "c_coverage": 0.02339741215109825,
+      "c_n_exons": 0.03028196096420288,
+      "c_cds_length": 0.021145926788449287,
+      "c_composite_score": 0.033041324466466904,
+      "c_hit_score": 0.024722140282392502,
+      "c_rank": 0.0,
+      "query_type_num": 0.023267794400453568
+    },
+    "chicken": {
+      "a_diamond": 0.07421056181192398,
+      "a_last": 0.004727127496153116,
+      "a_miniprot": 0.19449733197689056,
+      "a_mmseqs": 0.007653626147657633,
+      "a_n_tools": 0.014563999138772488,
+      "a_best_score": 0.013644770719110966,
+      "a_best_qcov": 0.011933459900319576,
+      "a_n_raw_hits": 0.02686156891286373,
+      "region_size": 0.013467772863805294,
+      "region_size_log": 0.014437714591622353,
+      "on_primary_chrom": 0.2615671753883362,
+      "strand_match_primary": 0.06368876993656158,
+      "coorth_overlap_bp": 0.042209118604660034,
+      "coorth_same_chrom": 0.023466000333428383,
+      "query_length_aa": 0.015326110646128654,
+      "query_length_log": 0.007391372695565224,
+      "c_has_hit": 0.002452110406011343,
+      "c_identity": 0.017122875899076462,
+      "c_coverage": 0.037661418318748474,
+      "c_n_exons": 0.027271149680018425,
+      "c_cds_length": 0.02877248078584671,
+      "c_composite_score": 0.02750277705490589,
+      "c_hit_score": 0.04108237475156784,
+      "c_rank": 0.0,
+      "query_type_num": 0.028488393872976303
+    },
+    "zebrafish": {
+      "a_diamond": 0.04478297382593155,
+      "a_last": 0.020939888432621956,
+      "a_miniprot": 0.008307937532663345,
+      "a_mmseqs": 0.008682320825755596,
+      "a_n_tools": 0.07073578983545303,
+      "a_best_score": 0.020335551351308823,
+      "a_best_qcov": 0.03726242855191231,
+      "a_n_raw_hits": 0.029671693220734596,
+      "region_size": 0.025365237146615982,
+      "region_size_log": 0.02216454967856407,
+      "on_primary_chrom": 0.16055388748645782,
+      "strand_match_primary": 0.15412983298301697,
+      "coorth_overlap_bp": 0.0365619994699955,
+      "coorth_same_chrom": 0.024957813322544098,
+      "query_length_aa": 0.019731707870960236,
+      "query_length_log": 0.012104279361665249,
+      "c_has_hit": 0.0042344448156654835,
+      "c_identity": 0.01992117054760456,
+      "c_coverage": 0.028585057705640793,
+      "c_n_exons": 0.03339904546737671,
+      "c_cds_length": 0.045315615832805634,
+      "c_composite_score": 0.08401479572057724,
+      "c_hit_score": 0.042192231863737106,
+      "c_rank": 0.0,
+      "query_type_num": 0.04604976996779442
+    }
+  },
+  "sorted": [
+    [
+      "on_primary_chrom",
+      0.21134477853775024,
+      "Geometry",
+      "G | on primary chrom."
+    ],
+    [
+      "a_miniprot",
+      0.11856440361589193,
+      "A-stage",
+      "A | miniprot present"
+    ],
+    [
+      "strand_match_primary",
+      0.07556409295648336,
+      "Geometry",
+      "G | strand matches orth."
+    ],
+    [
+      "a_n_tools",
+      0.06136114499531686,
+      "A-stage",
+      "A | num tools hitting"
+    ],
+    [
+      "a_diamond",
+      0.044781530275940895,
+      "A-stage",
+      "A | diamond present"
+    ],
+    [
+      "coorth_overlap_bp",
+      0.043406098149716854,
+      "Geometry",
+      "G | co-orth. overlap"
+    ],
+    [
+      "c_composite_score",
+      0.041697641368955374,
+      "C-stage",
+      "C | composite score"
+    ],
+    [
+      "a_n_raw_hits",
+      0.04020269215106964,
+      "A-stage",
+      "A | num raw hits"
+    ],
+    [
+      "c_hit_score",
+      0.03526130970567465,
+      "C-stage",
+      "C | miniprot raw score"
+    ],
+    [
+      "query_type_num",
+      0.034762962721288204,
+      "Species ind.",
+      "S | query type (human / sp)"
+    ],
+    [
+      "c_n_exons",
+      0.03465252602472901,
+      "C-stage",
+      "C | num exons"
+    ],
+    [
+      "c_cds_length",
+      0.03169546974822879,
+      "C-stage",
+      "C | CDS length"
+    ],
+    [
+      "c_coverage",
+      0.03002384165301919,
+      "C-stage",
+      "C | query coverage"
+    ],
+    [
+      "c_identity",
+      0.026639826595783234,
+      "C-stage",
+      "C | alignment identity"
+    ],
+    [
+      "query_length_aa",
+      0.022669244091957808,
+      "Query",
+      "Q | protein length"
+    ],
+    [
+      "coorth_same_chrom",
+      0.021691611502319574,
+      "Geometry",
+      "G | co-orth. same chrom."
+    ],
+    [
+      "region_size",
+      0.020767028210684657,
+      "Geometry",
+      "G | region size"
+    ],
+    [
+      "region_size_log",
+      0.0193756939843297,
+      "Geometry",
+      "G | region size (log10)"
+    ],
+    [
+      "a_best_qcov",
+      0.018757023848593235,
+      "A-stage",
+      "A | best query cov."
+    ],
+    [
+      "query_length_log",
+      0.017893350450322032,
+      "Query",
+      "Q | protein length (log10)"
+    ],
+    [
+      "a_best_score",
+      0.017172154504805803,
+      "A-stage",
+      "A | best bitscore"
+    ],
+    [
+      "a_mmseqs",
+      0.013868817244656384,
+      "A-stage",
+      "A | mmseqs present"
+    ],
+    [
+      "a_last",
+      0.010921174893155694,
+      "A-stage",
+      "A | last present"
+    ],
+    [
+      "c_has_hit",
+      0.006925599649548531,
+      "C-stage",
+      "C | has spliced hit"
+    ],
+    [
+      "c_rank",
+      0.0,
+      "C-stage",
+      "C | hit rank"
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+\begin{table*}[!t]
+\centering
+\caption{Per-tool stage-level error decomposition (Exp~2). OK = exon F1 $\ge 0.95$. A = search (locus $\notin$ top-50). B = selection (in top-50, not \#1). C = alignment (\#1, F1 $< 0.95$). $\tau=0.95$, K=50. Bold $\ge 50\%$. $\Delta$A = A$_{\text{para}} - $A$_{\text{1:1}}$ (pp). 1:1 dominant: C=\texttt{miniprot},\texttt{GTH},\texttt{mini+miniS}; others A/B. Paralog: A 23/24 cells.}
+\label{tab:s_exp2_abc}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{llrrrrrrrrr}
+\toprule
+Tool & Sp & \multicolumn{4}{c}{1:1 ortholog} & \multicolumn{4}{c}{Paralog (broad)} & $\Delta$A \\
+\cmidrule{3-6} \cmidrule{7-10}
+ & & OK\% & A\% & B\% & C\% & OK\% & A\% & B\% & C\% & (pp) \\
+\midrule
+\texttt{miniprot} & Mo & 82.7 & 6.9 & 0.2 & 10.2 & 26.0 & 50.0 & 1.8 & 22.2 & +43.1 \\
+ & Do & 71.2 & 8.1 & 0.1 & 20.6 & 19.8 & 47.0 & 3.0 & 30.2 & +38.9 \\
+ & Ch & 52.1 & 14.0 & 0.0 & 33.9 & 18.9 & 56.6 & 1.0 & 23.6 & +42.6 \\
+ & Zf & 60.1 & 13.7 & 0.2 & 26.0 & \textbf{8.8} & \textbf{80.0} & 1.2 & 10.0 & +66.3 \\
+\midrule
+\texttt{Spaln3} & Mo & 62.6 & 27.6 & 0.0 & 9.8 & 22.8 & \textbf{61.4} & 0.0 & 15.8 & +33.8 \\
+ & Do & 51.6 & 29.8 & 0.0 & 18.6 & 16.2 & \textbf{55.8} & 0.0 & 28.0 & +26.0 \\
+ & Ch & 40.5 & 32.6 & 0.0 & 26.9 & 14.1 & \textbf{66.4} & 0.0 & 19.5 & +33.8 \\
+ & Zf & 45.0 & 36.8 & 0.0 & 18.2 & \textbf{6.4} & \textbf{88.0} & 0.0 & 5.6 & +51.2 \\
+\midrule
+\texttt{GTH} & Mo & 44.5 & 6.9 & 0.2 & 48.4 & 23.4 & 50.0 & 1.8 & 24.8 & +43.1 \\
+ & Do & 37.8 & 8.1 & 0.1 & \textbf{54.1} & 16.8 & 47.0 & 3.0 & 33.2 & +38.9 \\
+ & Ch & 27.6 & 14.0 & 0.0 & \textbf{58.5} & 11.9 & 56.6 & 1.0 & 30.5 & +42.6 \\
+ & Zf & 25.6 & 13.7 & 0.2 & \textbf{60.5} & \textbf{5.8} & \textbf{80.0} & 1.2 & 13.0 & +66.3 \\
+\midrule
+\texttt{Scipio} & Mo & 30.4 & \textbf{55.2} & 0.0 & 14.3 & 6.4 & \textbf{80.0} & 0.0 & 13.6 & +24.8 \\
+ & Do & 26.9 & \textbf{57.2} & 0.0 & 15.9 & 7.6 & \textbf{72.4} & 0.4 & 19.6 & +15.2 \\
+ & Ch & 9.3 & \textbf{64.3} & 0.0 & 26.4 & 2.9 & \textbf{80.7} & 0.0 & 16.4 & +16.4 \\
+ & Zf & 5.3 & \textbf{63.5} & 0.0 & 31.1 & \textbf{0.4} & \textbf{95.8} & 0.2 & 3.6 & +32.3 \\
+\midrule
+\texttt{genBlastG} & Mo & 8.8 & 44.3 & 37.9 & 9.0 & 1.2 & \textbf{83.0} & 13.8 & 2.0 & +38.7 \\
+ & Do & 9.6 & 37.0 & \textbf{44.9} & 8.6 & 0.8 & 48.0 & \textbf{46.4} & 4.8 & +11.0 \\
+ & Ch & 2.8 & \textbf{63.6} & 24.3 & 9.2 & 1.6 & \textbf{57.4} & 36.1 & 4.9 & $-$6.2 \\
+ & Zf & 7.3 & 37.4 & \textbf{42.6} & 12.7 & 1.4 & \textbf{61.8} & 33.0 & 3.8 & +24.4 \\
+\midrule
+\texttt{mini+miniS} & Mo & \textbf{84.0} & 6.9 & 0.2 & 8.8 & 26.6 & 50.0 & 1.8 & 21.6 & +43.1 \\
+ & Do & \textbf{71.9} & 8.1 & 0.1 & 20.0 & 19.6 & 47.0 & 3.0 & 30.4 & +38.9 \\
+ & Ch & \textbf{55.4} & 14.0 & 0.0 & 30.6 & 19.3 & 56.6 & 1.0 & 23.2 & +42.6 \\
+ & Zf & \textbf{65.4} & 13.7 & 0.2 & 20.6 & 10.2 & \textbf{80.0} & 1.2 & 8.6 & +66.3 \\
+\bottomrule
+\end{tabular}
+
+\vspace{2pt}
+\footnotesize $\Delta$A range $-$6.2 to +66.3 pp; 23/24 cells $\ge +11$ pp. Spaln3--miniprot A gap (1:1): Mo +20.7, Do +21.7, Ch +18.6, Zf +23.1 pp. Robustness $\rho = 1.000$ (1:1, 9 cuts); $\rho \ge 0.935$ (para, 8/9).
+\end{table*}

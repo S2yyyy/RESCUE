@@ -1,0 +1,292 @@
+{
+  "mouse": {
+    "always_primary": {
+      "primary_f1": {
+        "mean": 0.2467,
+        "ci_lo": 0.165,
+        "ci_hi": 0.3325
+      },
+      "best_overlap_f1": {
+        "mean": 0.4601,
+        "ci_lo": 0.3689,
+        "ci_hi": 0.5505
+      },
+      "n_queries": 98
+    },
+    "max_cstage": {
+      "primary_f1": {
+        "mean": 0.3129,
+        "ci_lo": 0.2262,
+        "ci_hi": 0.4039
+      },
+      "best_overlap_f1": {
+        "mean": 0.5197,
+        "ci_lo": 0.4323,
+        "ci_hi": 0.6088
+      },
+      "n_queries": 98
+    },
+    "max_identity": {
+      "primary_f1": {
+        "mean": 0.3744,
+        "ci_lo": 0.2825,
+        "ci_hi": 0.4687
+      },
+      "best_overlap_f1": {
+        "mean": 0.5974,
+        "ci_lo": 0.5104,
+        "ci_hi": 0.6854
+      },
+      "n_queries": 98
+    },
+    "max_tool_consensus": {
+      "primary_f1": {
+        "mean": 0.3341,
+        "ci_lo": 0.2441,
+        "ci_hi": 0.4248
+      },
+      "best_overlap_f1": {
+        "mean": 0.511,
+        "ci_lo": 0.4208,
+        "ci_hi": 0.5993
+      },
+      "n_queries": 98
+    },
+    "max_coverage": {
+      "primary_f1": {
+        "mean": 0.2687,
+        "ci_lo": 0.1865,
+        "ci_hi": 0.3556
+      },
+      "best_overlap_f1": {
+        "mean": 0.5033,
+        "ci_lo": 0.4128,
+        "ci_hi": 0.5947
+      },
+      "n_queries": 98
+    }
+  },
+  "dog": {
+    "always_primary": {
+      "primary_f1": {
+        "mean": 0.4514,
+        "ci_lo": 0.3651,
+        "ci_hi": 0.5357
+      },
+      "best_overlap_f1": {
+        "mean": 0.6015,
+        "ci_lo": 0.5207,
+        "ci_hi": 0.6787
+      },
+      "n_queries": 100
+    },
+    "max_cstage": {
+      "primary_f1": {
+        "mean": 0.3542,
+        "ci_lo": 0.2723,
+        "ci_hi": 0.4363
+      },
+      "best_overlap_f1": {
+        "mean": 0.5332,
+        "ci_lo": 0.4533,
+        "ci_hi": 0.6105
+      },
+      "n_queries": 100
+    },
+    "max_identity": {
+      "primary_f1": {
+        "mean": 0.4449,
+        "ci_lo": 0.3557,
+        "ci_hi": 0.5322
+      },
+      "best_overlap_f1": {
+        "mean": 0.5924,
+        "ci_lo": 0.5087,
+        "ci_hi": 0.6734
+      },
+      "n_queries": 100
+    },
+    "max_tool_consensus": {
+      "primary_f1": {
+        "mean": 0.3973,
+        "ci_lo": 0.3112,
+        "ci_hi": 0.484
+      },
+      "best_overlap_f1": {
+        "mean": 0.6174,
+        "ci_lo": 0.5375,
+        "ci_hi": 0.6934
+      },
+      "n_queries": 100
+    },
+    "max_coverage": {
+      "primary_f1": {
+        "mean": 0.2856,
+        "ci_lo": 0.2078,
+        "ci_hi": 0.3685
+      },
+      "best_overlap_f1": {
+        "mean": 0.4923,
+        "ci_lo": 0.4084,
+        "ci_hi": 0.5742
+      },
+      "n_queries": 100
+    }
+  },
+  "chicken": {
+    "always_primary": {
+      "primary_f1": {
+        "mean": 0.4182,
+        "ci_lo": 0.3293,
+        "ci_hi": 0.508
+      },
+      "best_overlap_f1": {
+        "mean": 0.5346,
+        "ci_lo": 0.4482,
+        "ci_hi": 0.6184
+      },
+      "n_queries": 94
+    },
+    "max_cstage": {
+      "primary_f1": {
+        "mean": 0.4066,
+        "ci_lo": 0.318,
+        "ci_hi": 0.4968
+      },
+      "best_overlap_f1": {
+        "mean": 0.5114,
+        "ci_lo": 0.4247,
+        "ci_hi": 0.5977
+      },
+      "n_queries": 94
+    },
+    "max_identity": {
+      "primary_f1": {
+        "mean": 0.4311,
+        "ci_lo": 0.3401,
+        "ci_hi": 0.5235
+      },
+      "best_overlap_f1": {
+        "mean": 0.5204,
+        "ci_lo": 0.4319,
+        "ci_hi": 0.6087
+      },
+      "n_queries": 94
+    },
+    "max_tool_consensus": {
+      "primary_f1": {
+        "mean": 0.3874,
+        "ci_lo": 0.3007,
+        "ci_hi": 0.4757
+      },
+      "best_overlap_f1": {
+        "mean": 0.4812,
+        "ci_lo": 0.3946,
+        "ci_hi": 0.5672
+      },
+      "n_queries": 94
+    },
+    "max_coverage": {
+      "primary_f1": {
+        "mean": 0.2771,
+        "ci_lo": 0.1964,
+        "ci_hi": 0.3626
+      },
+      "best_overlap_f1": {
+        "mean": 0.4146,
+        "ci_lo": 0.3289,
+        "ci_hi": 0.5015
+      },
+      "n_queries": 94
+    }
+  },
+  "zebrafish": {
+    "always_primary": {
+      "primary_f1": {
+        "mean": 0.2221,
+        "ci_lo": 0.1467,
+        "ci_hi": 0.3017
+      },
+      "best_overlap_f1": {
+        "mean": 0.262,
+        "ci_lo": 0.1864,
+        "ci_hi": 0.3422
+      },
+      "n_queries": 89
+    },
+    "max_cstage": {
+      "primary_f1": {
+        "mean": 0.1829,
+        "ci_lo": 0.1152,
+        "ci_hi": 0.2577
+      },
+      "best_overlap_f1": {
+        "mean": 0.2472,
+        "ci_lo": 0.1707,
+        "ci_hi": 0.3268
+      },
+      "n_queries": 89
+    },
+    "max_identity": {
+      "primary_f1": {
+        "mean": 0.1859,
+        "ci_lo": 0.118,
+        "ci_hi": 0.2608
+      },
+      "best_overlap_f1": {
+        "mean": 0.263,
+        "ci_lo": 0.1852,
+        "ci_hi": 0.3447
+      },
+      "n_queries": 89
+    },
+    "max_tool_consensus": {
+      "primary_f1": {
+        "mean": 0.1693,
+        "ci_lo": 0.1044,
+        "ci_hi": 0.2435
+      },
+      "best_overlap_f1": {
+        "mean": 0.2378,
+        "ci_lo": 0.1617,
+        "ci_hi": 0.3186
+      },
+      "n_queries": 89
+    },
+    "max_coverage": {
+      "primary_f1": {
+        "mean": 0.159,
+        "ci_lo": 0.0944,
+        "ci_hi": 0.2301
+      },
+      "best_overlap_f1": {
+        "mean": 0.2349,
+        "ci_lo": 0.1597,
+        "ci_hi": 0.315
+      },
+      "n_queries": 89
+    }
+  },
+  "_summary": {
+    "always_primary": {
+      "mean_primary_f1": 0.3346,
+      "mean_best_overlap_f1": 0.4646
+    },
+    "max_cstage": {
+      "mean_primary_f1": 0.3142,
+      "mean_best_overlap_f1": 0.4529
+    },
+    "max_identity": {
+      "mean_primary_f1": 0.3591,
+      "mean_best_overlap_f1": 0.4933
+    },
+    "max_tool_consensus": {
+      "mean_primary_f1": 0.322,
+      "mean_best_overlap_f1": 0.4618
+    },
+    "max_coverage": {
+      "mean_primary_f1": 0.2476,
+      "mean_best_overlap_f1": 0.4113
+    }
+  }
+}

@@ -1,0 +1,49 @@
+broad_e1_rate	cds_recovery_mean	correct_locus_rate	exon_f1_ge_tau	exon_f1_mean	full_length_rate	hit_rate	junction_f1_mean	n_proteins	regime	species	strict_e1_rate	tool
+	0.8631	0.959	0.535	0.8855	0.885	0.9685	0.8124	2000	one_to_one	chicken		miniprot
+0.1189	0.4153	0.4939	0.1926	0.4	0.6004	0.7295	0.3666	488	paralog	chicken	0.3873	miniprot
+	0.9346	0.989	0.729	0.9443	0.972	0.9965	0.8985	2000	one_to_one	dog		miniprot
+0.296	0.3612	0.44	0.21	0.3497	0.808	0.9	0.3812	500	paralog	dog	0.264	miniprot
+	0.9539	0.9795	0.8535	0.9559	0.9645	0.995	0.9163	2000	one_to_one	mouse		miniprot
+0.288	0.3232	0.362	0.266	0.3262	0.784	0.862	0.3716	500	paralog	mouse	0.35	miniprot
+	0.8504	0.9145	0.6125	0.8666	0.773	0.9565	0.8117	2000	one_to_one	zebrafish		miniprot
+0.088	0.1684	0.206	0.09	0.1697	0.374	0.596	0.1553	500	paralog	zebrafish	0.706	miniprot
+	0.6945	0.7905	0.4175	0.7131	0.716	0.8025	0.65	2000	one_to_one	chicken		spaln3
+0.084	0.3052	0.3525	0.1434	0.2955	0.416	0.5266	0.2607	488	paralog	chicken	0.5635	spaln3
+	0.7339	0.8015	0.5325	0.7448	0.755	0.8135	0.698	2000	one_to_one	dog		spaln3
+0.288	0.2795	0.324	0.168	0.2683	0.638	0.75	0.2598	500	paralog	dog	0.388	spaln3
+	0.7605	0.8	0.6405	0.7628	0.7795	0.832	0.7156	2000	one_to_one	mouse		spaln3
+0.202	0.2866	0.312	0.244	0.2886	0.588	0.692	0.2911	500	paralog	mouse	0.486	spaln3
+	0.6566	0.7235	0.4565	0.6627	0.6465	0.7755	0.6097	2000	one_to_one	zebrafish		spaln3
+0.058	0.0934	0.11	0.064	0.0945	0.25	0.334	0.1131	500	paralog	zebrafish	0.832	spaln3
+	0.8679	0.96	0.576	0.8915	0.888	0.9685	0.8362	2000	one_to_one	chicken		minisplice_miniprot
+0.1209	0.4154	0.4857	0.1967	0.4009	0.584	0.7295	0.3768	488	paralog	chicken	0.3934	minisplice_miniprot
+	0.9352	0.989	0.7365	0.9452	0.97	0.9965	0.9047	2000	one_to_one	dog		minisplice_miniprot
+0.314	0.3625	0.424	0.214	0.3506	0.806	0.9	0.3882	500	paralog	dog	0.262	minisplice_miniprot
+	0.9558	0.98	0.869	0.9586	0.962	0.995	0.9312	2000	one_to_one	mouse		minisplice_miniprot
+0.29	0.3295	0.362	0.28	0.3329	0.778	0.862	0.3884	500	paralog	mouse	0.348	minisplice_miniprot
+	0.8566	0.9135	0.673	0.8731	0.779	0.9565	0.8434	2000	one_to_one	zebrafish		minisplice_miniprot
+0.078	0.1722	0.206	0.106	0.1734	0.376	0.596	0.1645	500	paralog	zebrafish	0.716	minisplice_miniprot
+	0.7185	0.931	0.2895	0.776	0.9425	0.9445	0.6522	2000	one_to_one	chicken		gth
+0.1107	0.3503	0.4652	0.1352	0.3664	0.6988	0.707	0.2941	488	paralog	chicken	0.4242	gth
+	0.7543	0.963	0.3905	0.8036	0.973	0.9755	0.6842	2000	one_to_one	dog		gth
+0.284	0.3347	0.42	0.188	0.3435	0.878	0.884	0.3473	500	paralog	dog	0.296	gth
+	0.7889	0.951	0.4625	0.8274	0.968	0.9745	0.7116	2000	one_to_one	mouse		gth
+0.274	0.3318	0.358	0.276	0.3378	0.858	0.86	0.3753	500	paralog	mouse	0.368	gth
+	0.6383	0.872	0.261	0.6949	0.913	0.933	0.5824	2000	one_to_one	zebrafish		gth
+0.096	0.1235	0.168	0.064	0.1346	0.562	0.586	0.1246	500	paralog	zebrafish	0.736	gth
+	0.6497	0.8645	0.19	0.7213	0.306	0.9115	0.552	2000	one_to_one	chicken		scipio
+0.0922	0.2653	0.4037	0.0635	0.2855	0.125	0.7234	0.1959	488	paralog	chicken	0.5041	scipio
+	0.8124	0.886	0.5825	0.8361	0.7275	0.943	0.7373	2000	one_to_one	dog		scipio
+0.262	0.3176	0.45	0.142	0.3278	0.41	0.936	0.2703	500	paralog	dog	0.288	scipio
+	0.6056	0.6905	0.41	0.6357	0.448	0.857	0.5176	2000	one_to_one	mouse		scipio
+0.224	0.144	0.24	0.084	0.1515	0.282	0.792	0.1628	500	paralog	mouse	0.536	scipio
+	0.528	0.802	0.111	0.617	0.1045	0.882	0.4296	2000	one_to_one	zebrafish		scipio
+0.066	0.083	0.184	0.018	0.1006	0.058	0.524	0.0578	500	paralog	zebrafish	0.75	scipio
+	0.4513	0.582	0.127	0.48	0.4075	0.623	0.3527	2000	one_to_one	chicken		genblastg
+0.1742	0.314	0.4098	0.1045	0.3121	0.4918	0.8545	0.2257	488	paralog	chicken	0.416	genblastg
+	0.8044	0.927	0.464	0.8282	0.771	0.9815	0.6811	2000	one_to_one	dog		genblastg
+0.362	0.2635	0.326	0.13	0.2551	0.618	0.906	0.2067	500	paralog	dog	0.312	genblastg
+	0.7122	0.8285	0.4055	0.7328	0.652	0.9345	0.5784	2000	one_to_one	mouse		genblastg
+0.138	0.1563	0.17	0.128	0.1572	0.42	0.59	0.1374	500	paralog	mouse	0.692	genblastg
+	0.7137	0.8725	0.2975	0.746	0.526	0.98	0.5782	2000	one_to_one	zebrafish		genblastg
+0.144	0.153	0.202	0.058	0.1597	0.384	0.794	0.1268	500	paralog	zebrafish	0.654	genblastg

@@ -1,0 +1,191 @@
+{
+  "best_overlap": {
+    "E1": {
+      "experiment": "E1: Full Phase 5",
+      "n_queries": 98,
+      "mean": 0.8360182448979592,
+      "ci_lower": 0.7609062908163267,
+      "ci_upper": 0.9031038229591836,
+      "zero_f1_count": 15
+    },
+    "E2": {
+      "experiment": "E2: - Species Protein",
+      "n_queries": 98,
+      "mean": 0.6157757551020406,
+      "ci_lower": 0.5292833520408164,
+      "ci_upper": 0.6984164209183674,
+      "zero_f1_count": 29
+    },
+    "E3": {
+      "experiment": "E3: - Router (heuristic)",
+      "n_queries": 98,
+      "mean": 0.4601035102040816,
+      "ci_lower": 0.3720904612244898,
+      "ci_upper": 0.5510915028061224,
+      "zero_f1_count": 46
+    },
+    "E4": {
+      "experiment": "E4: - Phase 3 (co-ortholog)",
+      "n_queries": 98,
+      "mean": 0.6403859795918367,
+      "ci_lower": 0.5473469053571428,
+      "ci_upper": 0.7326446813775509,
+      "zero_f1_count": 33,
+      "regions_removed": 698,
+      "affected_queries": 167,
+      "queries_without_regions": 4,
+      "affected_subset_mean": 0.21122733333333332,
+      "affected_subset_ci_lower": 0.07393407407407408,
+      "affected_subset_ci_upper": 0.3693651055555555,
+      "affected_subset_n": 27
+    },
+    "E5": {
+      "experiment": "E5: - C-stage Features",
+      "n_queries": 98,
+      "mean": 0.8067654081632654,
+      "ci_lower": 0.7265530864795919,
+      "ci_upper": 0.880106918112245,
+      "zero_f1_count": 18
+    },
+    "E6_diamond": {
+      "experiment": "E6: - diamond",
+      "n_queries": 98,
+      "mean": 0.5952450816326531,
+      "ci_lower": 0.5072719020408164,
+      "ci_upper": 0.680579785969388,
+      "zero_f1_count": 32,
+      "tool": "diamond",
+      "queries_lost_all_regions": 0
+    },
+    "E6_last": {
+      "experiment": "E6: - last",
+      "n_queries": 98,
+      "mean": 0.5464659795918367,
+      "ci_lower": 0.4570448071428572,
+      "ci_upper": 0.634489831632653,
+      "zero_f1_count": 36,
+      "tool": "last",
+      "queries_lost_all_regions": 0
+    },
+    "E6_miniprot": {
+      "experiment": "E6: - miniprot",
+      "n_queries": 98,
+      "mean": 0.5954246530612245,
+      "ci_lower": 0.5068535798469388,
+      "ci_upper": 0.6813208331632653,
+      "zero_f1_count": 31,
+      "tool": "miniprot",
+      "queries_lost_all_regions": 4
+    },
+    "E6_mmseqs": {
+      "experiment": "E6: - mmseqs",
+      "n_queries": 98,
+      "mean": 0.5662141632653062,
+      "ci_lower": 0.47852137091836733,
+      "ci_upper": 0.6544261803571428,
+      "zero_f1_count": 34,
+      "tool": "mmseqs",
+      "queries_lost_all_regions": 1
+    }
+  },
+  "primary": {
+    "E1": {
+      "experiment": "E1: Full Phase 5",
+      "n_queries": 98,
+      "mean": 0.7933771428571429,
+      "ci_lower": 0.711838469132653,
+      "ci_upper": 0.8737795403061225,
+      "zero_f1_count": 20
+    },
+    "E2": {
+      "experiment": "E2: - Species Protein",
+      "n_queries": 98,
+      "mean": 0.35526659183673465,
+      "ci_lower": 0.2654545395408163,
+      "ci_upper": 0.4489185984693878,
+      "zero_f1_count": 61
+    },
+    "E3": {
+      "experiment": "E3: - Router (heuristic)",
+      "n_queries": 98,
+      "mean": 0.24668726530612245,
+      "ci_lower": 0.16438578724489797,
+      "ci_upper": 0.3305131520408164,
+      "zero_f1_count": 72
+    },
+    "E4": {
+      "experiment": "E4: - Phase 3 (co-ortholog)",
+      "n_queries": 98,
+      "mean": 0.6307508979591836,
+      "ci_lower": 0.5389165780612245,
+      "ci_upper": 0.7225082420918367,
+      "zero_f1_count": 36,
+      "regions_removed": 698,
+      "affected_queries": 167,
+      "queries_without_regions": 4,
+      "affected_subset_mean": 0.1843940740740741,
+      "affected_subset_ci_lower": 0.03700407407407408,
+      "affected_subset_ci_upper": 0.332168962962963,
+      "affected_subset_n": 27
+    },
+    "E5": {
+      "experiment": "E5: - C-stage Features",
+      "n_queries": 98,
+      "mean": 0.783579581632653,
+      "ci_lower": 0.7018259428571428,
+      "ci_upper": 0.8645440221938776,
+      "zero_f1_count": 21
+    },
+    "E6_diamond": {
+      "experiment": "E6: - diamond",
+      "n_queries": 98,
+      "mean": 0.384520030612245,
+      "ci_lower": 0.2928134410714286,
+      "ci_upper": 0.4799421727040816,
+      "zero_f1_count": 57,
+      "tool": "diamond",
+      "queries_lost_all_regions": 0
+    },
+    "E6_last": {
+      "experiment": "E6: - last",
+      "n_queries": 98,
+      "mean": 0.337618918367347,
+      "ci_lower": 0.24911780969387753,
+      "ci_upper": 0.43073670102040823,
+      "zero_f1_count": 62,
+      "tool": "last",
+      "queries_lost_all_regions": 0
+    },
+    "E6_miniprot": {
+      "experiment": "E6: - miniprot",
+      "n_queries": 98,
+      "mean": 0.3539166734693877,
+      "ci_lower": 0.26560280612244896,
+      "ci_upper": 0.4460837821428571,
+      "zero_f1_count": 60,
+      "tool": "miniprot",
+      "queries_lost_all_regions": 4
+    },
+    "E6_mmseqs": {
+      "experiment": "E6: - mmseqs",
+      "n_queries": 98,
+      "mean": 0.3904243673469388,
+      "ci_lower": 0.29947834413265306,
+      "ci_upper": 0.4858400502551021,
+      "zero_f1_count": 57,
+      "tool": "mmseqs",
+      "queries_lost_all_regions": 1
+    }
+  },
+  "metadata": {
+    "n_rows": 9022,
+    "n_queries": 489,
+    "random_seed": 4242,
+    "n_bootstrap": 10000,
+    "reference_baselines": {
+      "GTH (paper best)": 0.611,
+      "B2 (human at correct locus)": 0.634,
+      "B1 (species prot genome-wide)": 0.986
+    }
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "mouse": {
+    "best_overlap": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 98,
+        "mean": 0.8360182448979592,
+        "ci_lower": 0.7609062908163267,
+        "ci_upper": 0.9031038229591836,
+        "zero_f1_count": 15
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 98,
+        "mean": 0.6157757551020406,
+        "ci_lower": 0.5292833520408164,
+        "ci_upper": 0.6984164209183674,
+        "zero_f1_count": 29
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 98,
+        "mean": 0.4601035102040816,
+        "ci_lower": 0.3705062487244898,
+        "ci_upper": 0.5519581770408164,
+        "zero_f1_count": 46
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 98,
+        "mean": 0.6403859795918367,
+        "ci_lower": 0.5473469053571428,
+        "ci_upper": 0.7326446813775509,
+        "zero_f1_count": 33,
+        "regions_removed": 698,
+        "affected_queries": 167,
+        "queries_without_regions": 4,
+        "affected_subset_mean": 0.21122733333333338,
+        "affected_subset_ci_lower": 0.07597396296296297,
+        "affected_subset_ci_upper": 0.36613260833333333,
+        "affected_subset_n": 27
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 98,
+        "mean": 0.8067654081632654,
+        "ci_lower": 0.7265530864795919,
+        "ci_upper": 0.880106918112245,
+        "zero_f1_count": 18
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 98,
+        "mean": 0.5952450816326531,
+        "ci_lower": 0.5072719020408164,
+        "ci_upper": 0.680579785969388,
+        "zero_f1_count": 32,
+        "tool": "diamond",
+        "queries_lost_all_regions": 0
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 98,
+        "mean": 0.5464659795918367,
+        "ci_lower": 0.4570448071428572,
+        "ci_upper": 0.634489831632653,
+        "zero_f1_count": 36,
+        "tool": "last",
+        "queries_lost_all_regions": 0
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 98,
+        "mean": 0.5954246530612245,
+        "ci_lower": 0.5068535798469388,
+        "ci_upper": 0.6813208331632653,
+        "zero_f1_count": 31,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 4
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 98,
+        "mean": 0.5662141632653062,
+        "ci_lower": 0.47852137091836733,
+        "ci_upper": 0.6544261803571428,
+        "zero_f1_count": 34,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 1
+      }
+    },
+    "primary": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 98,
+        "mean": 0.7933771428571429,
+        "ci_lower": 0.711838469132653,
+        "ci_upper": 0.8737795403061225,
+        "zero_f1_count": 20
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 98,
+        "mean": 0.35526659183673465,
+        "ci_lower": 0.2654545395408163,
+        "ci_upper": 0.4489185984693878,
+        "zero_f1_count": 61
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 98,
+        "mean": 0.24668726530612245,
+        "ci_lower": 0.16493607857142856,
+        "ci_upper": 0.3355063170918366,
+        "zero_f1_count": 72
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 98,
+        "mean": 0.6307508979591836,
+        "ci_lower": 0.5389165780612245,
+        "ci_upper": 0.7225082420918367,
+        "zero_f1_count": 36,
+        "regions_removed": 698,
+        "affected_queries": 167,
+        "queries_without_regions": 4,
+        "affected_subset_mean": 0.1843940740740741,
+        "affected_subset_ci_lower": 0.03700407407407408,
+        "affected_subset_ci_upper": 0.3322084314814815,
+        "affected_subset_n": 27
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 98,
+        "mean": 0.783579581632653,
+        "ci_lower": 0.7018259428571428,
+        "ci_upper": 0.8645440221938776,
+        "zero_f1_count": 21
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 98,
+        "mean": 0.384520030612245,
+        "ci_lower": 0.2928134410714286,
+        "ci_upper": 0.4799421727040816,
+        "zero_f1_count": 57,
+        "tool": "diamond",
+        "queries_lost_all_regions": 0
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 98,
+        "mean": 0.337618918367347,
+        "ci_lower": 0.24911780969387753,
+        "ci_upper": 0.43073670102040823,
+        "zero_f1_count": 62,
+        "tool": "last",
+        "queries_lost_all_regions": 0
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 98,
+        "mean": 0.3539166734693877,
+        "ci_lower": 0.26560280612244896,
+        "ci_upper": 0.4460837821428571,
+        "zero_f1_count": 60,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 4
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 98,
+        "mean": 0.3904243673469388,
+        "ci_lower": 0.29947834413265306,
+        "ci_upper": 0.4858400502551021,
+        "zero_f1_count": 57,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 1
+      }
+    }
+  },
+  "dog": {
+    "best_overlap": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 100,
+        "mean": 0.8544180499999999,
+        "ci_lower": 0.79376669375,
+        "ci_upper": 0.9093102104999998,
+        "zero_f1_count": 10
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 100,
+        "mean": 0.7064123299999998,
+        "ci_lower": 0.6348044337500001,
+        "ci_upper": 0.7724503727499998,
+        "zero_f1_count": 15
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 100,
+        "mean": 0.6014563999999999,
+        "ci_lower": 0.5206694477500001,
+        "ci_upper": 0.67845666275,
+        "zero_f1_count": 25
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 100,
+        "mean": 0.76169624,
+        "ci_lower": 0.681118408,
+        "ci_upper": 0.8359421895000001,
+        "zero_f1_count": 20,
+        "regions_removed": 1152,
+        "affected_queries": 165,
+        "queries_without_regions": 4,
+        "affected_subset_mean": 0.53385875,
+        "affected_subset_ci_lower": 0.36727723828125003,
+        "affected_subset_ci_upper": 0.6961607546875,
+        "affected_subset_n": 32
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 100,
+        "mean": 0.85164047,
+        "ci_lower": 0.7859047532500001,
+        "ci_upper": 0.9103717064999998,
+        "zero_f1_count": 11
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 100,
+        "mean": 0.56488032,
+        "ci_lower": 0.48366084924999997,
+        "ci_upper": 0.644000507,
+        "zero_f1_count": 30,
+        "tool": "diamond",
+        "queries_lost_all_regions": 0
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 100,
+        "mean": 0.55297206,
+        "ci_lower": 0.47115801200000007,
+        "ci_upper": 0.6336205355000001,
+        "zero_f1_count": 32,
+        "tool": "last",
+        "queries_lost_all_regions": 0
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 100,
+        "mean": 0.56795752,
+        "ci_lower": 0.4852959630000001,
+        "ci_upper": 0.6460181769999997,
+        "zero_f1_count": 30,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 1
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 100,
+        "mean": 0.55898999,
+        "ci_lower": 0.4780412922500001,
+        "ci_upper": 0.6382841639999999,
+        "zero_f1_count": 31,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 0
+      }
+    },
+    "primary": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 100,
+        "mean": 0.7712228299999999,
+        "ci_lower": 0.69071439275,
+        "ci_upper": 0.8458210552500001,
+        "zero_f1_count": 20
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 100,
+        "mean": 0.59361889,
+        "ci_lower": 0.5085009930000001,
+        "ci_upper": 0.6762962205,
+        "zero_f1_count": 29
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 100,
+        "mean": 0.45142606999999996,
+        "ci_lower": 0.36487014549999996,
+        "ci_upper": 0.53727317125,
+        "zero_f1_count": 46
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 100,
+        "mean": 0.65764909,
+        "ci_lower": 0.569209567,
+        "ci_upper": 0.7434010632499999,
+        "zero_f1_count": 31,
+        "regions_removed": 1152,
+        "affected_queries": 165,
+        "queries_without_regions": 4,
+        "affected_subset_mean": 0.399767,
+        "affected_subset_ci_lower": 0.24577493593750002,
+        "affected_subset_ci_upper": 0.5627114874999999,
+        "affected_subset_n": 32
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 100,
+        "mean": 0.7403497899999999,
+        "ci_lower": 0.6558246055,
+        "ci_upper": 0.819411873,
+        "zero_f1_count": 24
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 100,
+        "mean": 0.45965145999999996,
+        "ci_lower": 0.37190943475,
+        "ci_upper": 0.54468387625,
+        "zero_f1_count": 44,
+        "tool": "diamond",
+        "queries_lost_all_regions": 0
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 100,
+        "mean": 0.44522391,
+        "ci_lower": 0.3578263064999999,
+        "ci_upper": 0.5289317502499999,
+        "zero_f1_count": 46,
+        "tool": "last",
+        "queries_lost_all_regions": 0
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 100,
+        "mean": 0.45174988,
+        "ci_lower": 0.36637042024999994,
+        "ci_upper": 0.5361129085,
+        "zero_f1_count": 45,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 1
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 100,
+        "mean": 0.462467,
+        "ci_lower": 0.37522531925,
+        "ci_upper": 0.5477868505000001,
+        "zero_f1_count": 44,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 0
+      }
+    }
+  },
+  "chicken": {
+    "best_overlap": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 94,
+        "mean": 0.802481276595745,
+        "ci_lower": 0.7271434460106383,
+        "ci_upper": 0.8723051936170211,
+        "zero_f1_count": 14
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 94,
+        "mean": 0.5456142340425533,
+        "ci_lower": 0.46238515664893626,
+        "ci_upper": 0.6306726319148934,
+        "zero_f1_count": 30
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 94,
+        "mean": 0.5451953297872341,
+        "ci_lower": 0.45674873297872354,
+        "ci_upper": 0.6293577867021276,
+        "zero_f1_count": 31
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 94,
+        "mean": 0.5935484893617021,
+        "ci_lower": 0.49915804734042557,
+        "ci_upper": 0.6865940563829785,
+        "zero_f1_count": 34,
+        "regions_removed": 1280,
+        "affected_queries": 179,
+        "queries_without_regions": 7,
+        "affected_subset_mean": 0.27448410810810814,
+        "affected_subset_ci_lower": 0.14089288783783785,
+        "affected_subset_ci_upper": 0.4245463547297296,
+        "affected_subset_n": 37
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 94,
+        "mean": 0.8052882021276597,
+        "ci_lower": 0.7292185771276595,
+        "ci_upper": 0.8770047617021276,
+        "zero_f1_count": 15
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 94,
+        "mean": 0.39054552127659564,
+        "ci_lower": 0.3065527138297872,
+        "ci_upper": 0.4759140462765958,
+        "zero_f1_count": 47,
+        "tool": "diamond",
+        "queries_lost_all_regions": 3
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 94,
+        "mean": 0.3905664680851065,
+        "ci_lower": 0.3069293244680851,
+        "ci_upper": 0.4756433417553191,
+        "zero_f1_count": 46,
+        "tool": "last",
+        "queries_lost_all_regions": 10
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 94,
+        "mean": 0.41921102127659565,
+        "ci_lower": 0.33584678005319146,
+        "ci_upper": 0.5048633292553192,
+        "zero_f1_count": 44,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 3
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 94,
+        "mean": 0.38981337234042546,
+        "ci_lower": 0.306081827925532,
+        "ci_upper": 0.4750536973404255,
+        "zero_f1_count": 47,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 3
+      }
+    },
+    "primary": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 94,
+        "mean": 0.7600588510638298,
+        "ci_lower": 0.6748873273936171,
+        "ci_upper": 0.8407863175531917,
+        "zero_f1_count": 21
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 94,
+        "mean": 0.4821423191489362,
+        "ci_lower": 0.3952014305851065,
+        "ci_upper": 0.5709711119680851,
+        "zero_f1_count": 40
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 94,
+        "mean": 0.42875299999999994,
+        "ci_lower": 0.3398635457446809,
+        "ci_upper": 0.5182296821808511,
+        "zero_f1_count": 46
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 94,
+        "mean": 0.5321142872340425,
+        "ci_lower": 0.4324353922872341,
+        "ci_upper": 0.6300105343085107,
+        "zero_f1_count": 43,
+        "regions_removed": 1280,
+        "affected_queries": 179,
+        "queries_without_regions": 7,
+        "affected_subset_mean": 0.2154524864864865,
+        "affected_subset_ci_lower": 0.08086307229729729,
+        "affected_subset_ci_upper": 0.35029849121621615,
+        "affected_subset_n": 37
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 94,
+        "mean": 0.727366914893617,
+        "ci_lower": 0.6352612311170212,
+        "ci_upper": 0.8134962686170214,
+        "zero_f1_count": 25
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 94,
+        "mean": 0.3674436702127659,
+        "ci_lower": 0.2826506638297873,
+        "ci_upper": 0.45438243271276596,
+        "zero_f1_count": 52,
+        "tool": "diamond",
+        "queries_lost_all_regions": 3
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 94,
+        "mean": 0.3848463617021276,
+        "ci_lower": 0.2993115563829788,
+        "ci_upper": 0.472279260106383,
+        "zero_f1_count": 50,
+        "tool": "last",
+        "queries_lost_all_regions": 10
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 94,
+        "mean": 0.38484636170212766,
+        "ci_lower": 0.2990114763297873,
+        "ci_upper": 0.47124335984042537,
+        "zero_f1_count": 50,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 3
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 94,
+        "mean": 0.3773231489361702,
+        "ci_lower": 0.2915522619680851,
+        "ci_upper": 0.4640411827127659,
+        "zero_f1_count": 51,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 3
+      }
+    }
+  },
+  "zebrafish": {
+    "best_overlap": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 89,
+        "mean": 0.6351690786516854,
+        "ci_lower": 0.5430790755617978,
+        "ci_upper": 0.7267252289325842,
+        "zero_f1_count": 28
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 89,
+        "mean": 0.4016041348314607,
+        "ci_lower": 0.31076764606741575,
+        "ci_upper": 0.48924316966292136,
+        "zero_f1_count": 44
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 89,
+        "mean": 0.2620010898876405,
+        "ci_lower": 0.18550880561797756,
+        "ci_upper": 0.3425496005617978,
+        "zero_f1_count": 57
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 89,
+        "mean": 0.5587369550561798,
+        "ci_lower": 0.46037332191011243,
+        "ci_upper": 0.6559794803370786,
+        "zero_f1_count": 34,
+        "regions_removed": 1094,
+        "affected_queries": 185,
+        "queries_without_regions": 2,
+        "affected_subset_mean": 0.33148184375,
+        "affected_subset_ci_lower": 0.18516594296875005,
+        "affected_subset_ci_upper": 0.48556289218749993,
+        "affected_subset_n": 32
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 89,
+        "mean": 0.6371701011235955,
+        "ci_lower": 0.542254432022472,
+        "ci_upper": 0.7298566396067416,
+        "zero_f1_count": 28
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 89,
+        "mean": 0.32692440449438204,
+        "ci_lower": 0.23926003848314611,
+        "ci_upper": 0.4165951724719101,
+        "zero_f1_count": 54,
+        "tool": "diamond",
+        "queries_lost_all_regions": 1
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 89,
+        "mean": 0.3116626516853933,
+        "ci_lower": 0.22325858764044942,
+        "ci_upper": 0.40238131123595505,
+        "zero_f1_count": 56,
+        "tool": "last",
+        "queries_lost_all_regions": 9
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 89,
+        "mean": 0.315773606741573,
+        "ci_lower": 0.22964953005617977,
+        "ci_upper": 0.4037753376404495,
+        "zero_f1_count": 55,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 4
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 89,
+        "mean": 0.3041447640449439,
+        "ci_lower": 0.2203308168539326,
+        "ci_upper": 0.3921049997191011,
+        "zero_f1_count": 56,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 1
+      }
+    },
+    "primary": {
+      "E1": {
+        "experiment": "E1: Full Phase 5",
+        "n_queries": 89,
+        "mean": 0.5745364606741573,
+        "ci_lower": 0.4747302735955056,
+        "ci_upper": 0.6727672325842696,
+        "zero_f1_count": 35
+      },
+      "E2": {
+        "experiment": "E2: - Species Protein",
+        "n_queries": 89,
+        "mean": 0.27756344943820227,
+        "ci_lower": 0.19580176685393258,
+        "ci_upper": 0.36308953258426974,
+        "zero_f1_count": 57
+      },
+      "E3": {
+        "experiment": "E3: - Router (heuristic)",
+        "n_queries": 89,
+        "mean": 0.22206720224719104,
+        "ci_lower": 0.1470710907303371,
+        "ci_upper": 0.30121593960674153,
+        "zero_f1_count": 64
+      },
+      "E4": {
+        "experiment": "E4: - Phase 3 (co-ortholog)",
+        "n_queries": 89,
+        "mean": 0.5021853146067415,
+        "ci_lower": 0.39998817331460673,
+        "ci_upper": 0.6042625460674157,
+        "zero_f1_count": 42,
+        "regions_removed": 1094,
+        "affected_queries": 185,
+        "queries_without_regions": 2,
+        "affected_subset_mean": 0.33007653124999997,
+        "affected_subset_ci_lower": 0.17518671875,
+        "affected_subset_ci_upper": 0.49283117812500005,
+        "affected_subset_n": 32
+      },
+      "E5": {
+        "experiment": "E5: - C-stage Features",
+        "n_queries": 89,
+        "mean": 0.5655002359550562,
+        "ci_lower": 0.4658930471910112,
+        "ci_upper": 0.6626562707865168,
+        "zero_f1_count": 35
+      },
+      "E6_diamond": {
+        "experiment": "E6: - diamond",
+        "n_queries": 89,
+        "mean": 0.21464910112359556,
+        "ci_lower": 0.13899190870786518,
+        "ci_upper": 0.2949848230337078,
+        "zero_f1_count": 66,
+        "tool": "diamond",
+        "queries_lost_all_regions": 1
+      },
+      "E6_last": {
+        "experiment": "E6: - last",
+        "n_queries": 89,
+        "mean": 0.19544569662921346,
+        "ci_lower": 0.1217185699438203,
+        "ci_upper": 0.2753651342696629,
+        "zero_f1_count": 68,
+        "tool": "last",
+        "queries_lost_all_regions": 9
+      },
+      "E6_miniprot": {
+        "experiment": "E6: - miniprot",
+        "n_queries": 89,
+        "mean": 0.20474297752808987,
+        "ci_lower": 0.13080582696629214,
+        "ci_upper": 0.2850105783707865,
+        "zero_f1_count": 67,
+        "tool": "miniprot",
+        "queries_lost_all_regions": 4
+      },
+      "E6_mmseqs": {
+        "experiment": "E6: - mmseqs",
+        "n_queries": 89,
+        "mean": 0.21583222471910116,
+        "ci_lower": 0.14051239044943822,
+        "ci_upper": 0.2963327123595505,
+        "zero_f1_count": 66,
+        "tool": "mmseqs",
+        "queries_lost_all_regions": 1
+      }
+    }
+  }
+}

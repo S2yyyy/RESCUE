@@ -1,0 +1,65 @@
+# Exp 1 — End-to-end benchmark tool registry.
+# 7 e2e tools x 4 species x 2 regimes = 56 batches.
+# syncmer+miniprot runs as a separate task (needs miniprot patch).
+
+defaults:
+  threads: 8                          # per batch (V4 32-core total budget / 4 concurrent)
+  batch_timeout_sec: 86400            # 24 h per (tool, species, regime)
+  per_query_timeout_sec: 1800         # 30 min per protein for per-query tools
+  failure_policy: zero                # missing prediction -> metric 0, never skip
+  top_k_per_protein: 1                # Exp 1 evaluates top-1 only
+  total_core_cap: 32
+  max_concurrent_batches: 4
+
+paths:
+  genomes_dir: data/processed/genomes     # override with RESCUE_GENOME_DIR
+  data_root:  data/v3                     # override with RESCUE_V3_DATA
+  out_root:   results/exp1/raw
+  log_root:   results/exp1/logs
+  work_root:  results/exp1/work
+  score_root: results/exp1/scores         # minisplice per-genome score.tsv cache
+  tools_root: tools                       # override with RESCUE_TOOLS_ROOT
+
+species: [chicken, dog, mouse, zebrafish]
+
+regimes:
+  one_to_one: ""
+  paralog:    "_paralog"
+
+tools:
+  miniprot:
+    mode: batch
+    conda_env: null
+  spaln3:
+    mode: batch
+    conda_env: null
+  minisplice_miniprot:
+    mode: batch
+    conda_env: null
+    requires_score: true              # per-genome minisplice score.tsv
+  gth:
+    mode: batch                       # native multi-protein FASTA input
+    conda_env: null
+  scipio:
+    mode: per_query
+    conda_env: null                   # set RESCUE_CONDA_ENV if using conda
+  procompart_prosplign:
+    mode: per_query
+    conda_env: null
+  genblastg:
+    mode: per_query
+    conda_env: null
+
+# species-specific GTH model override (for distant queries)
+gth_species_map:
+  mouse: mouse
+  dog: human
+  chicken: chicken
+  zebrafish: human
+
+evaluation:
+  top_k: 1
+  exon_f1_tau: 0.95
+  junction_tolerance_bp: 10
+  full_length_qcov: 0.9
+  metrics: [exon_f1, junction_f1, cds_recovery, full_length, hit_rate, strict_e1]

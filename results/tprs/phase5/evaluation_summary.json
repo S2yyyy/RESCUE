@@ -1,0 +1,91 @@
+{
+  "phase5_router_b_best_overlap": {
+    "mean": 0.8360182448979592,
+    "ci_lower": 0.7609062908163267,
+    "ci_upper": 0.9031038229591836,
+    "primary_mean": 0.7109543265306123,
+    "primary_ci_lower": 0.6197790390306122,
+    "primary_ci_upper": 0.8004227107142857,
+    "zero_f1": 15,
+    "n_queries": 98
+  },
+  "phase5_router_p_primary": {
+    "mean": 0.7933771428571429,
+    "ci_lower": 0.711838469132653,
+    "ci_upper": 0.8737795403061225,
+    "best_overlap_mean": 0.8441676428571427,
+    "best_overlap_ci_lower": 0.7707516030612244,
+    "best_overlap_ci_upper": 0.909050087244898,
+    "n_queries": 98
+  },
+  "baselines": {
+    "always_primary": {
+      "n_queries": 98,
+      "best_overlap_mean": 0.4601035102040816,
+      "best_overlap_ci_lower": 0.37243721020408166,
+      "best_overlap_ci_upper": 0.5501952502551021,
+      "primary_mean": 0.24668726530612245,
+      "primary_ci_lower": 0.16766686122448982,
+      "primary_ci_upper": 0.3324487145408163,
+      "zero_f1_count": 46
+    },
+    "best_c_composite": {
+      "n_queries": 98,
+      "best_overlap_mean": 0.5196953469387754,
+      "best_overlap_ci_lower": 0.43041379413265307,
+      "best_overlap_ci_upper": 0.6079993267857143,
+      "primary_mean": 0.31292448979591836,
+      "primary_ci_lower": 0.2258584028061225,
+      "primary_ci_upper": 0.4034770903061224,
+      "zero_f1_count": 38
+    },
+    "best_a_score": {
+      "n_queries": 98,
+      "best_overlap_mean": 0.5188885102040816,
+      "best_overlap_ci_lower": 0.4278907627551021,
+      "best_overlap_ci_upper": 0.6080642887755101,
+      "primary_mean": 0.32515004081632654,
+      "primary_ci_lower": 0.23665148418367346,
+      "primary_ci_upper": 0.4173112913265305,
+      "zero_f1_count": 40
+    },
+    "oracle": {
+      "n_queries": 98,
+      "best_overlap_mean": 0.8624400714285714,
+      "best_overlap_ci_lower": 0.7914242344387756,
+      "best_overlap_ci_upper": 0.9258279346938777,
+      "primary_mean": 0.7124524489795918,
+      "primary_ci_lower": 0.6208146290816327,
+      "primary_ci_upper": 0.8034017346938774,
+      "zero_f1_count": 13
+    }
+  },
+  "paper_baselines": {
+    "Scipio": [
+      0.151,
+      0.333
+    ],
+    "genBlastG": [
+      0.157,
+      0.3
+    ],
+    "Spaln3": [
+      0.289,
+      0.496
+    ],
+    "miniprot": [
+      0.326,
+      0.597
+    ],
+    "mini+miniSplice": [
+      0.333,
+      0.608
+    ],
+    "GTH": [
+      0.338,
+      0.611
+    ]
+  },
+  "train_n_queries": 391,
+  "test_n_queries": 98
+}
