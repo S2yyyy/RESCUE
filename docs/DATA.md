@@ -92,9 +92,9 @@ Query counts per species:
 
 | Experiment | Data used |
 | --- | --- |
-| Benchmark of existing aligners (`scripts/exp1/`) | `data/v3/` query proteins + ground truth; genome FASTA; CDS BED |
+| End-to-end benchmark (`scripts/exp1/`) | `data/v3/` query proteins + ground truth; genome FASTA; CDS BED |
 | Forced-locus diagnosis (`scripts/exp5/`) | `data/v3/` ground-truth loci; genome FASTA |
-| Hybrid/oracle analysis (`scripts/exp6/`) | no primary data — analyzes benchmark outputs only |
+| Best fixed recipe / oracle analysis (`scripts/exp6/`) | no primary data — analyzes benchmark outputs only |
 | RESCUE pipeline (`scripts/tprs/`) | all of the above, plus canonical proteomes and Compara ortholog tables |
 
 ## 4. Checksums (MD5)

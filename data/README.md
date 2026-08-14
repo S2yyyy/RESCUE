@@ -31,10 +31,11 @@ data/
 
 See the "Quick Start with the Test Dataset" section of the repository
 README. Expected runtime: ~2–5 minutes on 8 cores. Expected outputs: per-tool
-locus recall (`results/tprs/recall/phase1_recall.tsv`), C-stage manifest
-(`results/tprs/cstage/manifest_mouse.tsv`), and the co-ortholog recovery
-summary (phase 3 log). Router training and final evaluation (phases 4–5) are
-part of the full reproduction path; see the repository README.
+locus recall (`results/tprs/recall/phase1_recall.tsv`), Stage II alignment
+manifest (`results/tprs/cstage/manifest_mouse.tsv`), and the co-ortholog
+recovery summary (phase 3 log). Router training and final evaluation
+(phases 4–5) are part of the full reproduction path; see the repository
+README.
 
 Note: metrics computed on 40 proteins are a smoke test of the installation,
 not a reproduction of the paper numbers.

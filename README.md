@@ -1,9 +1,9 @@
 # RESCUE: Protein-to-Genome Alignment Experiments
 
 This repository contains the release version of the code and minimal summary
-artifacts for the RESCUE paper experiments. Some historical scripts use the
-development name `TPRS`; in this release, `TPRS` refers to the implementation
-of the RESCUE candidate-generation and learned-selection pipeline.
+artifacts for the RESCUE paper experiments. Some directory and script names
+use the development name `TPRS` (e.g. `scripts/tprs/`); these are internal
+identifiers only — the method is called RESCUE throughout.
 
 The repository intentionally does not include large reference genomes,
 proteomes, external aligner installations, or machine-specific run logs. Full
@@ -22,7 +22,8 @@ is included under `data/` for the quick start below.
   from locus-search failure.
 - `scripts/exp6/`: fixed hybrid and oracle analyses for the candidate-selection
   gap.
-- `scripts/tprs/`: RESCUE/TPRS Phases 1-5, ablations, heuristic baselines, and
+- `scripts/tprs/`: RESCUE pipeline Phases 1-5 (Stage I candidate generation,
+  Stage II learned joint selection), ablations, heuristic baselines, and
   feature-importance extraction.
 - `scripts/prepare_data/`: deterministic rebuild of the full benchmark data
   tree from Ensembl release 113 (see `docs/DATA.md`).
@@ -35,10 +36,10 @@ is included under `data/` for the quick start below.
 
 | Paper claim or output | Code | Included summary artifact |
 | --- | --- | --- |
-| Baseline end-to-end benchmark of existing aligners | `scripts/exp1/` | `results/exp1/summary.tsv` |
+| End-to-end benchmark of existing aligners | `scripts/exp1/` | `results/exp1/summary.tsv` |
 | Forced-locus diagnosis of identity ceiling and search gap | `scripts/exp5/` | `results/exp5/cell/per_cell.tsv` |
-| Fixed hybrid/oracle candidate-selection gap | `scripts/exp6/` | — |
-| RESCUE candidate pool, C-stage scoring, recovery, and router | `scripts/tprs/phase1_recall.py`, `phase2_cstage.py`, `phase3_recovery.py`, `phase4_router.py`, `phase5_run.py` | `results/tprs/phase5/evaluation_summary.json`, `results/tprs/phase5/ablation_summary_all_species.json` |
+| Best fixed recipe and oracle candidate-selection gap | `scripts/exp6/` | — |
+| RESCUE candidate generation, alignment scoring, recovery, and learned router | `scripts/tprs/phase1_recall.py`, `phase2_cstage.py`, `phase3_recovery.py`, `phase4_router.py`, `phase5_run.py` | `results/tprs/phase5/evaluation_summary.json`, `results/tprs/phase5/ablation_summary_all_species.json` |
 | Component ablation E2-E6 | `scripts/tprs/phase5_ablation.py` | `results/tprs/phase5/ablation_summary_all_species.json` |
 | Non-learned router heuristic baselines | `scripts/tprs/phase5_heuristic_baselines.py` | `results/tprs/phase5/heuristic_baselines.json` |
 | Router feature importance | `scripts/tprs/extract_phase5_feature_importance.py` | `results/tprs/phase5/feature_importance_phase5.json` |
@@ -95,7 +96,7 @@ mmseqs createdb data/processed/genomes/mouse.fa \
 python scripts/prepare_data/build_gt_tables.py \
     --out-dir results/exp2/gt --species mouse
 
-# 3. A-stage: relaxed broad-recall search (4 tools)
+# 3. Stage I: candidate generation (relaxed search, 4 tools)
 bash scripts/tprs/run_relaxed_search.sh all
 bash scripts/tprs/run_relaxed_search.sh miniprot-relaxed
 
@@ -108,7 +109,7 @@ python -m scripts.stage0.normalize --tool miniprot \
 python scripts/tprs/phase1_recall.py \
     --tools miniprot_ultra diamond_relaxed mmseqs_relaxed last_relaxed
 
-# 5. C-stage alignment + co-ortholog recovery
+# 5. Stage II preparation: candidate alignment + co-ortholog recovery
 python scripts/tprs/phase2_cstage.py --species mouse
 python scripts/tprs/phase3_recovery.py --species mouse
 ```
@@ -119,7 +120,7 @@ python scripts/tprs/phase3_recovery.py --species mouse
 (`ground_truth.json`, 0-based half-open CDS exon coordinates).
 
 **Outputs**: per-tool locus recall (`results/tprs/recall/phase1_recall.tsv`),
-per-region C-stage results (`results/tprs/cstage/manifest_mouse.tsv`), and
+per-region alignment results (`results/tprs/cstage/manifest_mouse.tsv`), and
 the co-ortholog recovery summary (phase 3 log, e.g. "16/17 recovered").
 
 Router training and final evaluation (phases 4–5) involve XGBoost model
