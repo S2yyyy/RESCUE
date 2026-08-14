@@ -5,14 +5,20 @@ __pycache__/
 .ruff_cache/
 .DS_Store
 
-# Large or regenerated local outputs.
-data/
+# Large or regenerated local outputs. The small test dataset under data/ is
+# tracked; only regenerated/downloads and indexes are ignored.
+data/raw/
+data/gt/
+*.mpi
+*.fai
 tools/
 results/exp1/raw/
 results/exp1/logs/
 results/exp1/work/
 results/exp1/scores/
 results/exp1/metrics/
+results/exp2/
+results/exp3/
 results/exp5/per_protein/
 results/exp5/figures/
 results/tprs/raw/
@@ -29,3 +35,4 @@ paper/v4/tables/generated_legacy/
 .env
 .venv/
 venv/
+*.egg-info/

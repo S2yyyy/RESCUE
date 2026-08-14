@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rescue-p2g"
+version = "1.0.0"
+description = "RESCUE: candidate-generation and learned-selection pipeline for protein-to-genome alignment"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "xgboost>=2.0",
+]
+
+[project.scripts]
+rescue = "scripts.tprs.phase5_run:main"
+rescue-recall = "scripts.tprs.phase1_recall:main"
+rescue-cstage = "scripts.tprs.phase2_cstage:main"
+rescue-recovery = "scripts.tprs.phase3_recovery:main"
+rescue-router = "scripts.tprs.phase4_router:main"
+
+[tool.setuptools]
+packages = ["scripts", "scripts.tprs"]

@@ -1,8 +1,7 @@
-matplotlib
-numpy
-pandas
-pysam
-pyyaml
-scikit-learn
-xgboost
-
+# Core runtime dependencies of the RESCUE pipeline (scripts/tprs/).
+# Tested with Python 3.11: numpy 2.4.4, pandas 3.0.2,
+# scikit-learn 1.8.0, xgboost 3.2.0.
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+xgboost>=2.0

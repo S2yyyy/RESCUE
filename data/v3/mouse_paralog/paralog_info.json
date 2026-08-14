@@ -1,0 +1,1178 @@
+{
+  "ENSP00000321334": {
+    "human_gene": "ENSG00000198670",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000095577",
+    "best_identity": 1.27451,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000095577",
+        "identity": 1.27451,
+        "chrom": "6_131213384_131780665",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000094113",
+        "identity": 1.17647,
+        "chrom": "6_131213384_131780665",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000361867": {
+    "human_gene": "ENSG00000124233",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000040132",
+    "best_identity": 15.5844,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000040132",
+        "identity": 15.5844,
+        "chrom": "2_163828780_164382225",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000017003",
+        "identity": 11.039,
+        "chrom": "2_163828780_164382225",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000050383",
+        "identity": 11.2554,
+        "chrom": "2_163828780_164382225",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000507206": {
+    "human_gene": "ENSG00000179909",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000053211",
+    "best_identity": 17.849,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000053211",
+        "identity": 17.849,
+        "chrom": "Y_475417_1009910",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000000103",
+        "identity": 16.9336,
+        "chrom": "Y_1856301_2383445",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000379464": {
+    "human_gene": "ENSG00000213762",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000053211",
+    "best_identity": 19.9063,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000053211",
+        "identity": 19.9063,
+        "chrom": "Y_475417_1009910",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000000103",
+        "identity": 18.9696,
+        "chrom": "Y_1856301_2383445",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000316228": {
+    "human_gene": "ENSG00000104938",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000051906",
+    "best_identity": 22.0551,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000051906",
+        "identity": 22.0551,
+        "chrom": "8_3903110_4437399",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000079168",
+        "identity": 18.797,
+        "chrom": "8_3903110_4437399",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000329565": {
+    "human_gene": "ENSG00000214300",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000039296",
+    "best_identity": 24.0437,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000039296",
+        "identity": 24.0437,
+        "chrom": "5_142928052_143461562",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000029586",
+        "identity": 22.0401,
+        "chrom": "5_142928052_143461562",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000514268": {
+    "human_gene": "ENSG00000254229",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000043549",
+    "best_identity": 28.0172,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000043549",
+        "identity": 28.0172,
+        "chrom": "X_93149571_93650828",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000079112",
+        "identity": 26.7241,
+        "chrom": "8_22199257_22703933",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000497429": {
+    "human_gene": "ENSG00000285913",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000043549",
+    "best_identity": 28.2328,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000043549",
+        "identity": 28.2328,
+        "chrom": "X_93149571_93650828",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000079112",
+        "identity": 26.5086,
+        "chrom": "8_22199257_22703933",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000318502": {
+    "human_gene": "ENSG00000176679",
+    "n_target_loci": 2,
+    "n_paralogs_with_cds": 2,
+    "best_target_gene": "ENSMUSG00000100133",
+    "best_identity": 28.6486,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000100133",
+        "identity": 28.6486,
+        "chrom": "X_117087038_117640319",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000100194",
+        "identity": 28.6486,
+        "chrom": "X_117087038_117640319",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000436353": {
+    "human_gene": "ENSG00000254709",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000105906",
+    "best_identity": 35.0467,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000105906",
+        "identity": 35.0467,
+        "chrom": "16_18630504_19267603",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000076937",
+        "identity": 31.3084,
+        "chrom": "16_18630504_19267603",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000106039",
+        "identity": 32.243,
+        "chrom": "16_18630504_19267603",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000105547",
+        "identity": 31.7757,
+        "chrom": "16_18630504_19267603",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000375234": {
+    "human_gene": "ENSG00000212722",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000110324",
+    "best_identity": 38.0952,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000110324",
+        "identity": 38.0952,
+        "chrom": "7_141423809_142078100",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000109859",
+        "identity": 35.7143,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000054759",
+        "identity": 37.619,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000056885",
+        "identity": 29.5238,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000272395": {
+    "human_gene": "ENSG00000144015",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000067399",
+    "best_identity": 42.1525,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000067399",
+        "identity": 42.1525,
+        "chrom": "9_88214090_89223731",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000079162",
+        "identity": 41.0314,
+        "chrom": "9_88214090_89223731",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000090693",
+        "identity": 41.2556,
+        "chrom": "9_88214090_89223731",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000377583": {
+    "human_gene": "ENSG00000213417",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000110324",
+    "best_identity": 42.9688,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000110324",
+        "identity": 42.9688,
+        "chrom": "7_141423809_142078100",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000109859",
+        "identity": 37.5,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000054759",
+        "identity": 35.9375,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000056885",
+        "identity": 32.8125,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000417711": {
+    "human_gene": "ENSG00000205108",
+    "n_target_loci": 5,
+    "n_paralogs_with_cds": 5,
+    "best_target_gene": "ENSMUSG00000093996",
+    "best_identity": 45.4682,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000093996",
+        "identity": 45.4682,
+        "chrom": "4_41653684_43103826",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000078722",
+        "identity": 35.6554,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000094066",
+        "identity": 45.4682,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000078746",
+        "identity": 45.4682,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000078721",
+        "identity": 45.4682,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000361104": {
+    "human_gene": "ENSG00000171102",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000079539",
+    "best_identity": 47.6471,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000079539",
+        "identity": 47.6471,
+        "chrom": "2_25340102_25879623",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000026919",
+        "identity": 36.4706,
+        "chrom": "2_26307889_26811279",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000062061",
+        "identity": 42.3529,
+        "chrom": "2_25340102_25879623",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000341236": {
+    "human_gene": "ENSG00000197472",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000048280",
+    "best_identity": 49.9029,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000048280",
+        "identity": 49.9029,
+        "chrom": "13_67190632_68081557",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000057842",
+        "identity": 46.2136,
+        "chrom": "13_67190632_68081557",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000055341",
+        "identity": 46.2136,
+        "chrom": "13_67190632_68081557",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000098905",
+        "identity": 28.3495,
+        "chrom": "13_67190632_68081557",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000347210": {
+    "human_gene": "ENSG00000234444",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000048280",
+    "best_identity": 51.7564,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000048280",
+        "identity": 51.7564,
+        "chrom": "13_67190632_68081557",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000057842",
+        "identity": 49.4145,
+        "chrom": "13_67190632_68081557",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000055341",
+        "identity": 49.4145,
+        "chrom": "13_67190632_68081557",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000098905",
+        "identity": 35.1288,
+        "chrom": "13_67190632_68081557",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000375109": {
+    "human_gene": "ENSG00000240432",
+    "n_target_loci": 5,
+    "n_paralogs_with_cds": 5,
+    "best_target_gene": "ENSMUSG00000050224",
+    "best_identity": 54.6512,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000050224",
+        "identity": 54.6512,
+        "chrom": "16_88297895_88859070",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000009047",
+        "identity": 52.3256,
+        "chrom": "16_88297895_88859070",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000068078",
+        "identity": 54.0698,
+        "chrom": "16_88297895_88859070",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000116636",
+        "identity": 36.6279,
+        "chrom": "16_88297895_88859070",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000048830",
+        "identity": 54.0698,
+        "chrom": "16_88297895_88859070",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000261336": {
+    "human_gene": "ENSG00000126838",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000059908",
+    "best_identity": 56.8151,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000059908",
+        "identity": 56.8151,
+        "chrom": "6_121459988_122312796",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000108022",
+        "identity": 55.8704,
+        "chrom": "6_121459988_122312796",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000030131",
+        "identity": 55.2632,
+        "chrom": "6_121459988_122312796",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000374887": {
+    "human_gene": "ENSG00000211717",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000076470",
+    "best_identity": 59.6491,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000076470",
+        "identity": 59.6491,
+        "chrom": "6_40842969_41357519",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000076467",
+        "identity": 57.8947,
+        "chrom": "6_40842969_41357519",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000076469",
+        "identity": 59.6491,
+        "chrom": "6_40842969_41357519",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000520922": {
+    "human_gene": "ENSG00000300510",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000060591",
+    "best_identity": 62.406,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000060591",
+        "identity": 62.406,
+        "chrom": "7_140284900_140840558",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000065968",
+        "identity": 49.6241,
+        "chrom": "16_13549837_14054561",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000025491",
+        "identity": 48.1203,
+        "chrom": "7_140284900_140840558",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000025492",
+        "identity": 62.406,
+        "chrom": "7_140284900_140840558",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000374806": {
+    "human_gene": "ENSG00000211626",
+    "n_target_loci": 5,
+    "n_paralogs_with_cds": 5,
+    "best_target_gene": "ENSMUSG00000076563",
+    "best_identity": 65.2174,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000076563",
+        "identity": 65.2174,
+        "chrom": "6_69453556_70190845",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000076571",
+        "identity": 59.1304,
+        "chrom": "6_69453556_70190845",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000076569",
+        "identity": 65.2174,
+        "chrom": "6_69453556_70190845",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000094433",
+        "identity": 64.3478,
+        "chrom": "6_69453556_70190845",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000094094",
+        "identity": 65.2174,
+        "chrom": "6_69453556_70190845",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000192314": {
+    "human_gene": "ENSG00000154252",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000094651",
+    "best_identity": 68.0905,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000094651",
+        "identity": 68.0905,
+        "chrom": "1_93539315_94187244",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000093805",
+        "identity": 67.8392,
+        "chrom": "1_93539315_94187244",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000073608",
+        "identity": 67.3367,
+        "chrom": "1_93539315_94187244",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000476467": {
+    "human_gene": "ENSG00000225997",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000111517",
+    "best_identity": 69.8413,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000111517",
+        "identity": 69.8413,
+        "chrom": "2_88986476_89833170",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000111567",
+        "identity": 66.6667,
+        "chrom": "2_88986476_89833170",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000075075",
+        "identity": 66.3492,
+        "chrom": "2_88986476_89833170",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000111715",
+        "identity": 65.3968,
+        "chrom": "2_88986476_89833170",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000259607": {
+    "human_gene": "ENSG00000137077",
+    "n_target_loci": 5,
+    "n_paralogs_with_cds": 5,
+    "best_target_gene": "ENSMUSG00000096596",
+    "best_identity": 70.8955,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000096596",
+        "identity": 70.8955,
+        "chrom": "4_41653684_43103826",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000094065",
+        "identity": 70.8955,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000095675",
+        "identity": 70.8955,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000094686",
+        "identity": 70.1493,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000073878",
+        "identity": 70.8955,
+        "chrom": "4_41653684_43103826",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000374856": {
+    "human_gene": "ENSG00000211677",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000105906",
+    "best_identity": 71.6981,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000105906",
+        "identity": 71.6981,
+        "chrom": "16_18630504_19267603",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000076937",
+        "identity": 61.3208,
+        "chrom": "16_18630504_19267603",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000106039",
+        "identity": 65.0943,
+        "chrom": "16_18630504_19267603",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000105547",
+        "identity": 63.2075,
+        "chrom": "16_18630504_19267603",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000305974": {
+    "human_gene": "ENSG00000084453",
+    "n_target_loci": 6,
+    "n_paralogs_with_cds": 6,
+    "best_target_gene": "ENSMUSG00000030237",
+    "best_identity": 72.8358,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000030237",
+        "identity": 72.8358,
+        "chrom": "6_141404250_142471244",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000079262",
+        "identity": 65.6716,
+        "chrom": "6_141404250_142471244",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000079263",
+        "identity": 66.4179,
+        "chrom": "6_141404250_142471244",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000041698",
+        "identity": 68.806,
+        "chrom": "6_141404250_142471244",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000063975",
+        "identity": 72.5373,
+        "chrom": "6_141404250_142471244",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000084927",
+        "identity": 66.1194,
+        "chrom": "6_141404250_142471244",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000375881": {
+    "human_gene": "ENSG00000163283",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000079440",
+    "best_identity": 74.0187,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000079440",
+        "identity": 74.0187,
+        "chrom": "1_86764772_87305631",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000026246",
+        "identity": 72.8972,
+        "chrom": "1_86764772_87305631",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000036500",
+        "identity": 72.8972,
+        "chrom": "1_86764772_87305631",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000286479": {
+    "human_gene": "ENSG00000156006",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000051147",
+    "best_identity": 75.1724,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000051147",
+        "identity": 75.1724,
+        "chrom": "8_67683664_68250992",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000056426",
+        "identity": 65.5172,
+        "chrom": "8_67683664_68250992",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000025588",
+        "identity": 71.7241,
+        "chrom": "8_67683664_68250992",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000311224": {
+    "human_gene": "ENSG00000184227",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000021228",
+    "best_identity": 76.7221,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000021228",
+        "identity": 76.7221,
+        "chrom": "12_83784675_84372680",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000042540",
+        "identity": 74.3468,
+        "chrom": "12_83784675_84372680",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000021226",
+        "identity": 76.0095,
+        "chrom": "12_83784675_84372680",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000072949",
+        "identity": 76.4846,
+        "chrom": "12_83784675_84372680",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000353720": {
+    "human_gene": "ENSG00000198848",
+    "n_target_loci": 5,
+    "n_paralogs_with_cds": 5,
+    "best_target_gene": "ENSMUSG00000056973",
+    "best_identity": 77.8169,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000056973",
+        "identity": 77.8169,
+        "chrom": "8_93533517_94356353",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000057074",
+        "identity": 73.5916,
+        "chrom": "8_93533517_94356353",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000074156",
+        "identity": 70.7747,
+        "chrom": "8_93533517_94356353",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000078964",
+        "identity": 65.8451,
+        "chrom": "8_93533517_94356353",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000057400",
+        "identity": 64.6127,
+        "chrom": "8_93533517_94356353",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000355736": {
+    "human_gene": "ENSG00000184786",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000079710",
+    "best_identity": 79.2929,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000079710",
+        "identity": 79.2929,
+        "chrom": "17_14934509_15511659",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000116780",
+        "identity": 78.7879,
+        "chrom": "17_14934509_15511659",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000079707",
+        "identity": 79.2929,
+        "chrom": "17_14934509_15511659",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000497674": {
+    "human_gene": "ENSG00000177693",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000061195",
+    "best_identity": 80.1858,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000061195",
+        "identity": 80.1858,
+        "chrom": "2_111061538_111608584",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000108908",
+        "identity": 78.9474,
+        "chrom": "2_111061538_111608584",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000108891",
+        "identity": 80.1858,
+        "chrom": "2_111061538_111608584",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000485387": {
+    "human_gene": "ENSG00000280021",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000060888",
+    "best_identity": 81.1912,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000060888",
+        "identity": 81.1912,
+        "chrom": "7_102255530_102997903",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000073960",
+        "identity": 77.743,
+        "chrom": "7_102255530_102997903",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000078080",
+        "identity": 78.6834,
+        "chrom": "7_102255530_102997903",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000371595": {
+    "human_gene": "ENSG00000205864",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000073786",
+    "best_identity": 82.1705,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000073786",
+        "identity": 82.1705,
+        "chrom": "7_141423809_142078100",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000110061",
+        "identity": 76.7442,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000110091",
+        "identity": 80.6202,
+        "chrom": "7_141423809_142078100",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000352584": {
+    "human_gene": "ENSG00000198074",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000061758",
+    "best_identity": 82.9114,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000061758",
+        "identity": 82.9114,
+        "chrom": "6_34081165_34649820",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000052131",
+        "identity": 79.7468,
+        "chrom": "6_34081165_34649820",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000029762",
+        "identity": 82.2785,
+        "chrom": "6_34081165_34649820",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000484580": {
+    "human_gene": "ENSG00000184203",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000047714",
+    "best_identity": 84.3902,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000047714",
+        "identity": 84.3902,
+        "chrom": "16_30823507_31343788",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000121976",
+        "identity": 82.439,
+        "chrom": "17_6054177_7011789",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000094843",
+        "identity": 81.9512,
+        "chrom": "17_6054177_7011789",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000095869",
+        "identity": 81.9512,
+        "chrom": "17_6054177_7011789",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000301141": {
+    "human_gene": "ENSG00000255974",
+    "n_target_loci": 4,
+    "n_paralogs_with_cds": 4,
+    "best_target_gene": "ENSMUSG00000005547",
+    "best_identity": 85.2227,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000005547",
+        "identity": 85.2227,
+        "chrom": "7_26284788_26986068",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000074254",
+        "identity": 83.6032,
+        "chrom": "7_25756642_26264306",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000091867",
+        "identity": 70.2429,
+        "chrom": "7_26284788_26986068",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000060407",
+        "identity": 70.4453,
+        "chrom": "7_26284788_26986068",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000312439": {
+    "human_gene": "ENSG00000173456",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000053128",
+    "best_identity": 86.836,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000053128",
+        "identity": 86.836,
+        "chrom": "9_43772974_44274246",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000111409",
+        "identity": 86.836,
+        "chrom": "9_43772974_44274246",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000072476",
+        "identity": 86.1432,
+        "chrom": "6_76223342_76724614",
+        "is_best": false
+      }
+    ]
+  },
+  "ENSP00000347915": {
+    "human_gene": "ENSG00000197557",
+    "n_target_loci": 3,
+    "n_paralogs_with_cds": 3,
+    "best_target_gene": "ENSMUSG00000075273",
+    "best_identity": 90.5263,
+    "all_targets": [
+      {
+        "target_gene": "ENSMUSG00000075273",
+        "identity": 90.5263,
+        "chrom": "2_75516759_76062081",
+        "is_best": true
+      },
+      {
+        "target_gene": "ENSMUSG00000075272",
+        "identity": 90.5263,
+        "chrom": "2_75516759_76062081",
+        "is_best": false
+      },
+      {
+        "target_gene": "ENSMUSG00000075271",
+        "identity": 90.2256,
+        "chrom": "2_75516759_76062081",
+        "is_best": false
+      }
+    ]
+  }
+}

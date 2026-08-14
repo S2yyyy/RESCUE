@@ -205,6 +205,9 @@ def main() -> int:
 
     for sp in SPECIES:
         gt = GT_DIR / f"{sp}.paralog_broad.tsv"
+        if not gt.exists():
+            log.info("skip %s (no GT at %s)", sp, gt)
+            continue
         gts = load_gt(gt)
         qids = sorted(set(gts))
         n_total = len(qids)

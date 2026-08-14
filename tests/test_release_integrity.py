@@ -27,7 +27,12 @@ FORBIDDEN_PATTERNS = [
 
 REQUIRED_FILES = [
     "README.md",
+    "pyproject.toml",
     "requirements.txt",
+    "docs/DATA.md",
+    "scripts/prepare_data/README.md",
+    "data/README.md",
+    "data/v3/mouse_paralog/proteins.fa",
     "configs/exp1_tools.yaml",
     "scripts/rescue_paths.py",
     "scripts/stage0/normalize.py",

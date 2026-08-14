@@ -1,0 +1,53 @@
+# MD5 checksums of the processed data tree used in the RESCUE paper,
+# relative to $RESCUE_DATA_ROOT. Verify with verify_checksums.sh.
+# Note: BED row order is not canonicalized; if a BED checksum differs,
+# compare content with `sort` before concluding a mismatch.
+32cfe205a8fc667094334f74085dac80  processed/genomes/mouse.fa
+74625670c5e784cd11b5ae57d27b84cc  processed/genomes/dog.fa
+eeceff90b8c4200216bd5f5b942c65ae  processed/genomes/chicken.fa
+3648f1774b9d1c253bce7acf96e67ff7  processed/genomes/zebrafish.fa
+a69f594f87056cfa203e38321443a744  processed/proteins/human_canonical.fa
+eed4ee7474d21a9305ddf6dec998d793  processed/proteins/mouse_canonical.fa
+098c3d56533035afb29069f17615871a  processed/proteins/dog_canonical.fa
+d9746e8e9d361b8e5806371f7388fcb4  processed/proteins/chicken_canonical.fa
+a077127f24a807cc00cc148b2c17da5c  processed/proteins/zebrafish_canonical.fa
+4cce1972265394d3aecad0fd000eeae2  processed/orthologs/human_vs_canis_lupus_familiaris_one2one.tsv
+89cdbb94acc6e1798393d742a4557ae7  processed/orthologs/human_vs_canis_lupus_familiaris_paralog_rich.tsv
+16a9d8a506db48d9fe852d6c6ff6b8b6  processed/orthologs/human_vs_danio_rerio_one2one.tsv
+d886a567a01f9d7cc6e547dbf4a81d71  processed/orthologs/human_vs_danio_rerio_paralog_rich.tsv
+7b133cfc72e700512b5f4ed659c445e0  processed/orthologs/human_vs_gallus_gallus_one2one.tsv
+59972072e7b4ddb9a484063192b6a7e9  processed/orthologs/human_vs_gallus_gallus_paralog_rich.tsv
+5cb1d56889bc178bfa14315a4c49385b  processed/orthologs/human_vs_mus_musculus_one2one.tsv
+7950e7eb7f77a81faf235fc17f18f296  processed/orthologs/human_vs_mus_musculus_paralog_rich.tsv
+f35e97d53aef70847b7101e653a207ca  processed/gene_structures/mouse_CDS.bed
+60a28c23b990ad9abbe0189a453c3a38  processed/gene_structures/mouse_exons.bed
+c980d250acfe4aa83040787e4ebd8318  processed/gene_structures/dog_CDS.bed
+dbad3b7dcc4875e010c901805c99c350  processed/gene_structures/dog_exons.bed
+7f151040107162b5dca0eae9ec46840a  processed/gene_structures/chicken_CDS.bed
+84f1e3a7e372dd09af22024b61abb329  processed/gene_structures/chicken_exons.bed
+9bbe256955d18c83c31e496b2e6e2dd0  processed/gene_structures/zebrafish_CDS.bed
+ab2d78d113e8629e58cb0d9fb9020334  processed/gene_structures/zebrafish_exons.bed
+2027ac6b47ad8ed28f9fc883dcaa83ee  v3/mouse/proteins.fa
+f6982e1621acaa300e98eea462e55c30  v3/dog/proteins.fa
+bc87cb8e70607b9a87c8f8b443abeaf6  v3/chicken/proteins.fa
+7eae53ce18567e4e0f27263c4fd57895  v3/zebrafish/proteins.fa
+abeccea768dc8de4a6fd7296256ab655  v3/mouse_paralog/proteins.fa
+dfc2d2baa4c446e4e6117dc9add9420a  v3/dog_paralog/proteins.fa
+4dd82e009ab2dbd7a5c384d429bc6266  v3/chicken_paralog/proteins.fa
+4d17949f89e041b4e5402349513cba8b  v3/zebrafish_paralog/proteins.fa
+5edfa40cf803432ad91c256288166efc  v3/mouse/ground_truth.json
+2d47e05c41f9a0b034c5a3360bd28414  v3/dog/ground_truth.json
+ce40b67494006de901363e9e83c31b87  v3/chicken/ground_truth.json
+3a42707b6596907a43553de81581b392  v3/zebrafish/ground_truth.json
+c2aaf5588126d0724f9420382387bd16  v3/mouse_paralog/ground_truth.json
+f09793ee37f738b11524289bd1eb92b9  v3/dog_paralog/ground_truth.json
+e83b6f3a1f381b66a86905f5b0c9a4ff  v3/chicken_paralog/ground_truth.json
+18dbee97980af1bd610e06cbe9738741  v3/zebrafish_paralog/ground_truth.json
+ed99b2d989ec3ee2ad9083c6261c26c0  v3/mouse/pairs.tsv
+a969389df151bc5a5b069be451756d6c  v3/dog/pairs.tsv
+49f502aa9a7c835e5d2a42f4f8be0be2  v3/chicken/pairs.tsv
+218ceb6e0914cd7261efc56c1b40a8a6  v3/zebrafish/pairs.tsv
+633ec11f4fb7595b6f1de39c9ee1122a  v3/mouse_paralog/pairs.tsv
+19b4944cacec4ed9359454518f79a147  v3/dog_paralog/pairs.tsv
+ab1584859883bde2b58edc153607b22b  v3/chicken_paralog/pairs.tsv
+087b6d8c02cc53051764d4a6f6ef9365  v3/zebrafish_paralog/pairs.tsv

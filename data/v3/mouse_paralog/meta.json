@@ -1,0 +1,8 @@
+{
+  "species_short": "mouse",
+  "species_ensembl": "mus_musculus",
+  "genome": "data/processed/genomes/mouse.fa",
+  "n_proteins": 40,
+  "benchmark_type": "paralog_rich",
+  "test_dataset": true
+}
