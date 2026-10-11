@@ -1,0 +1,7 @@
+{
+  "species_short": "zebrafish",
+  "species_ensembl": "danio_rerio",
+  "genome": "data/processed/genomes/zebrafish.fa",
+  "n_proteins": 500,
+  "benchmark_type": "paralog_rich"
+}

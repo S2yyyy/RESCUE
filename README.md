@@ -9,7 +9,9 @@ The repository intentionally does not include large reference genomes,
 proteomes, external aligner installations, or machine-specific run logs. Full
 reruns require the external data layout described below. The checked-in
 summary artifacts under `results/` document the quantitative results
-reported in the paper. A small test dataset (40 proteins, 26 Mb mini-genome)
+reported in the paper. The paralog-rich benchmark sets evaluated in the
+paper (1,988 proteins across four species) are included under
+`data/benchmark/`. A small test dataset (40 proteins, 26 Mb mini-genome)
 is included under `data/` for the quick start below.
 
 ## Repository Layout
@@ -31,6 +33,23 @@ is included under `data/` for the quick start below.
 - `tests/`: release integrity checks.
 - `docs/DATA.md`: data sources, versions, benchmark construction, and
   checksums for all datasets used in the paper.
+- `data/benchmark/`: the paralog-rich benchmark sets evaluated in the paper
+  (see "Benchmark Data" below).
+
+## Benchmark Data
+
+The paralog-rich benchmark is provided under
+`data/benchmark/{mouse,dog,chicken,zebrafish}_paralog/` (488–500 proteins per
+species, 1,988 cases in total). Each case is a human query protein whose gene
+has at least two annotated orthologous loci in the target species (Ensembl
+Compara release-113 `ortholog_one2many` / `ortholog_many2many`). Each
+directory contains the query proteins (`proteins.fa`), the reference loci
+(`ground_truth.json`), the ortholog-pair metadata (`pairs.tsv`), and the full
+paralog annotation (`paralog_info.json`). Construction details and data
+sources are documented in `docs/DATA.md`, and the sets can also be rebuilt
+deterministically from Ensembl release 113 with `scripts/prepare_data/`. The
+40-protein dataset under `data/` remains the quick-start smoke test described
+below and is unrelated to this benchmark data.
 
 ## Experiment Map
 

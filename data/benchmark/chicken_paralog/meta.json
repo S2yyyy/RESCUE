@@ -1,0 +1,7 @@
+{
+  "species_short": "chicken",
+  "species_ensembl": "gallus_gallus",
+  "genome": "data/processed/genomes/chicken.fa",
+  "n_proteins": 488,
+  "benchmark_type": "paralog_rich"
+}

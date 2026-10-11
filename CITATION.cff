@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "RESCUE: Resolving Entangled Sequence Copies with Unified Evidence for Protein-to-Genome Alignment"
+# TODO(camera-ready): replace the placeholder author below with the author
+# list exactly as it appears on the paper, then do the same in
+# preferred-citation.
+authors:
+  - family-names: "Author"
+    given-names: "First"
+url: "https://github.com/S2yyyy/RESCUE"
+version: "1.0.0"
+date-released: "2026-10-11"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "RESCUE: Resolving Entangled Sequence Copies with Unified Evidence for Protein-to-Genome Alignment"
+  authors:
+    - family-names: "Author"
+      given-names: "First"
+  year: 2026
+  collection-title: "2026 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+  notes: "Short paper"

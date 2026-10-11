@@ -1,0 +1,7 @@
+{
+  "species_short": "dog",
+  "species_ensembl": "canis_lupus_familiaris",
+  "genome": "data/processed/genomes/dog.fa",
+  "n_proteins": 500,
+  "benchmark_type": "paralog_rich"
+}
